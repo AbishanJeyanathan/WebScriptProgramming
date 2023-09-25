@@ -1,0 +1,37 @@
+@charset "UTF-8"; /* CSS Document */ 
+/* The body tag style applies to all elements on the page */ 
+body 
+{ 
+    background-color: rgb(255, 2, 2); 
+    font-family: Verna, Geneva, Arial, sans-serif; 
+    background-image: url("https://img.freepik.com/free-vector/realistic-galaxy-background_23-2148991322.jpg");
+    background-attachment: fixed;
+    padding:0px; 
+    margin:0px; 
+}
+
+#wrapper
+{ 
+    width: 930px;
+    height: 800px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color:rgb(255, 255, 255) ; 
+} 
+
+.options
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
+}
+
+li {
+    align-items: center;
+    display: inline-block;
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 20px 113px;
+}
