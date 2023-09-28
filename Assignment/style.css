@@ -2,7 +2,7 @@
 /* The body tag style applies to all elements on the page */ 
 body 
 { 
-    background-color: rgb(255, 2, 2); 
+    background-color: rgb(0, 0, 0); 
     font-family: Verna, Geneva, Arial, sans-serif; 
     background-image: url("https://img.freepik.com/free-vector/realistic-galaxy-background_23-2148991322.jpg");
     background-attachment: fixed;
@@ -10,14 +10,35 @@ body
     margin:0px; 
 }
 
+
 #wrapper
 { 
-    width: 930px;
+    width: 960px;
     height: 800px; 
     margin-left: auto; 
     margin-right: auto; 
-    background-color:rgb(255, 255, 255) ; 
+    background-color:rgb(255, 255, 255) ;
+    opacity: 0.6; 
 } 
+
+.about
+{
+    text-shadow: 2px 2px 5px purple;
+    padding: 50px 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+#banner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 2px 2px 5px purple;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
+}
 
 .options
 {
@@ -25,6 +46,7 @@ body
     flex-direction: column;
     align-items: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
     display: inline;
 }
 
@@ -33,5 +55,40 @@ li {
     display: inline-block;
     margin-left: auto; 
     margin-right: auto; 
-    padding: 20px 113px;
+    padding: 20px 140px;
+}    
+    
+a:link {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        text-decoration: none;
+}
+      
+a:visited {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        text-decoration: none;
+}
+      
+a:hover {
+        color: rgb(255, 0, 0);
+        background-color: transparent;
+        text-decoration: none;
+}
+      
+a:active {
+        color: rgb(0, 17, 255);
+        background-color: transparent;
+        text-decoration: none; 
+}
+
+
+
+#footer
+{
+    color: white;
+}
+h3
+{
+    color: white;
 }
