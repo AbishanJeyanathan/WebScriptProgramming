@@ -14,12 +14,18 @@ body
 #wrapper
 { 
     width: 960px;
-    height: 800px; 
+    height: 1200x; 
     margin-left: auto; 
     margin-right: auto; 
     background-color:rgb(255, 255, 255) ;
     opacity: 0.6; 
 } 
+
+.nav img
+{
+    padding-left: 50px;
+    padding-top: 30px;
+}
 
 .about
 {
@@ -27,6 +33,54 @@ body
     padding: 50px 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+}
+
+.contact
+{
+    text-shadow: 2px 2px 5px purple;
+    padding: 50px 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h3
+{
+    text-shadow: 2px 2px 5px purple;
+    padding: 50px 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.portfolio
+{
+    text-shadow: 2px 2px 5px purple;
+    padding: 50px 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+
+input[type=text], select, textarea 
+{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+input[type=submit] 
+{
+    background-color: purple;
+    height: 40px;
+    width: 80px;
+    color: white;
+}
+
+input[type=submit]:hover
+{
+    background-color: black;
 }
 
 #banner
@@ -55,7 +109,8 @@ li {
     display: inline-block;
     margin-left: auto; 
     margin-right: auto; 
-    padding: 20px 125px;
+    padding: 20px 107px;
+    padding-bottom: 50px;
 }    
     
 a:link {
