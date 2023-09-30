@@ -27,6 +27,19 @@ body
     padding-top: 30px;
 }
 
+.home
+{
+    text-shadow: 2px 2px 5px purple;
+    padding: 50px 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.home video
+{
+    padding-left: 250px;
+}
+
 .about
 {
     text-shadow: 2px 2px 5px purple;
@@ -39,10 +52,12 @@ body
 {
     text-shadow: 2px 2px 5px purple;
     padding: 50px 50px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+
 
 }
+
+
 
 p
 {
